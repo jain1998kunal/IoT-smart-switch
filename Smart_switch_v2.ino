@@ -102,17 +102,13 @@ void loop() {
       digitalWrite(relay1, HIGH);
       digitalWrite(relay2, HIGH);
       break;
+    case 6:
+      digitalWrite(relay1,LOW);
+      digitalWrite(relay2,LOW);
+      break;
     default:
-      digitalWrite(relay1, LOW);
-      digitalWrite(relay2, LOW);
   }
 
   delay(5000); // No need to read the counter too often.
-}
-
-
-void apmode()
-{
-
 }
 
