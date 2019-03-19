@@ -26,7 +26,7 @@ WiFiClient  client;
 
 // Counting channel details
 unsigned long counterChannelNumber = 680278;
-const char *myCounterReadAPIKey = "S8U4T1SXLQ81UBDC";
+const char *myCounterReadAPIKey = "S8U4T1SXLQ81NBDC";
 unsigned int counterFieldNumber = 1;
 
 // D0,D1 for node mcu if generic esp8266 module is used then 0,2
